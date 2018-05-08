@@ -1,0 +1,46 @@
+{
+  "name": "BVPSHN",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "build:ios": "react-native bundle --entry-file='index.ios.js' --bundle-output='./ios/BVPSHN/main.jsbundle' --dev=false --platform='ios' --assets-dest='./ios'"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^6.3.1",
+    "generator-rn-toolbox": "^3.3.0",
+    "native-base": "^2.3.10",
+    "radio-button-react-native": "^1.1.6",
+    "react": "16.3.0-alpha.1",
+    "react-native": "0.54.0-rc.3",
+    "react-native-background-fetch": "2.0.x",
+    "react-native-background-task": "^0.2.1",
+    "react-native-communications": "^2.2.1",
+    "react-native-dialog-component": "^0.2.17",
+    "react-native-facebook-login": "^1.6.1",
+    "react-native-google-places": "^2.4.2",
+    "react-native-image-picker": "^0.26.7",
+    "react-native-immediate-phone-call": "^1.0.0",
+    "react-native-maps": "^0.20.1",
+    "react-native-modal-datetime-picker": "^5.1.0",
+    "react-native-popup-dialog": "^0.11.46",
+    "react-native-popup-menu": "^0.12.3",
+    "react-native-push-notification": "^3.0.2",
+    "react-native-simple-radio-button": "^2.7.1",
+    "react-native-vector-icons": "^4.5.0",
+    "react-navigation": "^1.5.6",
+    "rn-gn-buttonloading": "^1.0.1",
+    "rn-viewpager": "^1.2.9"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.2",
+    "react-test-renderer": "16.3.0-alpha.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

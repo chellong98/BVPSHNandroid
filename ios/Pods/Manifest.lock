@@ -1,0 +1,95 @@
+PODS:
+  - GoogleMaps (2.5.0):
+    - GoogleMaps/Maps (= 2.5.0)
+  - GoogleMaps/Base (2.5.0)
+  - GoogleMaps/Maps (2.5.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.5.0):
+    - GoogleMaps (= 2.5.0)
+    - GooglePlaces (= 2.5.0)
+  - GooglePlaces (2.5.0):
+    - GoogleMaps/Base (= 2.5.0)
+  - React (0.54.0-rc.3):
+    - React/Core (= 0.54.0-rc.3)
+  - react-native-google-maps (0.20.1):
+    - GoogleMaps (= 2.5.0)
+    - React
+  - react-native-maps (0.20.1):
+    - React
+  - React/Core (0.54.0-rc.3):
+    - yoga (= 0.54.0-rc.3.React)
+  - React/fishhook (0.54.0-rc.3)
+  - React/RCTActionSheet (0.54.0-rc.3):
+    - React/Core
+  - React/RCTAnimation (0.54.0-rc.3):
+    - React/Core
+  - React/RCTBlob (0.54.0-rc.3):
+    - React/Core
+  - React/RCTGeolocation (0.54.0-rc.3):
+    - React/Core
+  - React/RCTImage (0.54.0-rc.3):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.54.0-rc.3):
+    - React/Core
+  - React/RCTNetwork (0.54.0-rc.3):
+    - React/Core
+  - React/RCTSettings (0.54.0-rc.3):
+    - React/Core
+  - React/RCTText (0.54.0-rc.3):
+    - React/Core
+  - React/RCTVibration (0.54.0-rc.3):
+    - React/Core
+  - React/RCTWebSocket (0.54.0-rc.3):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - RNVectorIcons (4.5.0):
+    - React
+  - yoga (0.54.0-rc.3.React)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - react-native-google-maps (from `../node_modules/react-native-maps`)
+  - react-native-maps (from `../node_modules/react-native-maps`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/RCTActionSheet (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTGeolocation (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTLinkingIOS (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTSettings (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTVibration (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga/yoga.podspec`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: ../node_modules/react-native
+  react-native-google-maps:
+    :path: ../node_modules/react-native-maps
+  react-native-maps:
+    :path: ../node_modules/react-native-maps
+  RNVectorIcons:
+    :path: ../node_modules/react-native-vector-icons
+  yoga:
+    :path: ../node_modules/react-native/ReactCommon/yoga/yoga.podspec
+
+SPEC CHECKSUMS:
+  GoogleMaps: c087b8e5dfe87ca6ebf59adb9b4894a4146bec4f
+  GooglePlacePicker: 1573e644ab54564d95c2643edc0f29091609e966
+  GooglePlaces: dd70d9d71ea1c7944846afe67de3712c99b30a77
+  React: c237e42de9c70e5cac6eeb52b4cfd3a0910c1f00
+  react-native-google-maps: 963fc78a5ac32dad3a726e4fa08b5307faa5cab2
+  react-native-maps: 066c2afcc89e18726377bcc685315f989ca22449
+  RNVectorIcons: c0dbfbf6068fefa240c37b0f71bd03b45dddac44
+  yoga: 55da126afc384965b96bff46652464373b330add
+
+PODFILE CHECKSUM: 42757279ecbef08676dc6b13e0afd3d54b1478aa
+
+COCOAPODS: 1.4.0
